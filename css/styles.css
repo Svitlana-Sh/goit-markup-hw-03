@@ -42,6 +42,9 @@ body {
     color: #212121;
     }
 
+.container {
+    width: 1170px;
+}
 /*header*/
    .logo {
         color: #000000;
