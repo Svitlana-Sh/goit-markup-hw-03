@@ -49,7 +49,12 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-/*header*/
+/*===================header===================*/
+.page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -76,6 +81,8 @@ body {
 .menu {
   display: flex;
   column-gap: 50px;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
 .menu-link {
@@ -98,8 +105,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-  margin-left: auto;
-  margin-right: 50px;
 }
 
 .contact-mail:hover,
@@ -119,11 +124,13 @@ body {
 .contact-phone-number:focus {
   color: #2196f3;
 }
-
-/*main*/
-/*section 1*/
+/*===================/header====================*/
+/*====================main======================*/
+/*===================section 1==================*/
 .main-top {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .headline {
@@ -133,6 +140,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -152,8 +160,18 @@ body {
 .modal-open-btn:focus {
   background-color: #188ce8;
 }
+/*===================/section 1==================*/
+/*====================section 2==================*/
+.features-list {
+  display: flex;
+  gap: 30px;
+}
 
-/*section 2*/
+.features-top {
+  padding-top: 78px;
+  padding-bottom: 47px;
+}
+
 .features {
   font-weight: 700;
   font-size: 14px;
@@ -168,23 +186,47 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*===================/section 2==================*/
+/*====================section 3==================*/
+.working-top {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
 
-/*section 3*/
+.working-list {
+  display: flex;
+  gap: 30px;
+}
+
 .working {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+/*===================/section 3==================*/
+/*====================section 4==================*/
+.member-header {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 
-/*section*/
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .member-name {
@@ -202,9 +244,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-/*footer*/
+/*===================/section 4==================*/
+/*=====================/main====================*/
+/*====================footer====================*/
 .page-bottom {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -224,6 +269,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .map-point {
   font-size: 14px;
   line-height: 1.71;
@@ -249,13 +295,21 @@ body {
 .bottom-link:focus {
   color: #2196f3;
 }
+/*======================/footer==================*/
 
-address {
-  font-style: normal;
+/*=====================portfolio=================*/
+.portfolio-header {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-/*portfolio*/
-/*Filters*/
+/*======================filters===================*/
+.button-list {
+  margin-bottom: 34px;
+  display: flex;
+  gap: 8px;
+}
+
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -264,7 +318,6 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -272,8 +325,14 @@ address {
   color: #ffffff;
   background-color: #2196f3;
 }
+/*====================/filters===================*/
+/*====================projects===================*/
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
-/*projects*/
 .projects-name {
   font-weight: 700;
   font-size: 18px;
@@ -287,3 +346,4 @@ address {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*=====================/projects=================*/
