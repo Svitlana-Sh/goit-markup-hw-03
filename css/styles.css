@@ -49,10 +49,16 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*===================header===================*/
 .page-header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header-container {
@@ -133,6 +139,13 @@ body {
   padding-bottom: 200px;
 }
 
+/*.main-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+
 .headline {
   font-weight: 900;
   font-size: 44px;
@@ -151,9 +164,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  margin: 0 auto;
+  display: block;
   color: #ffffff;
   background-color: #2196f3;
-  cursor: pointer;
 }
 
 .modal-open-btn:hover,
@@ -167,9 +181,12 @@ body {
   gap: 30px;
 }
 
+.card {
+  flex-basis: calc(100%-90px / 4);
+}
+
 .features-top {
-  padding-top: 78px;
-  padding-bottom: 47px;
+  padding-top: 94px;
 }
 
 .features {
@@ -188,10 +205,6 @@ body {
 }
 /*===================/section 2==================*/
 /*====================section 3==================*/
-.working-top {
-  padding-top: 47px;
-  padding-bottom: 94px;
-}
 
 .working-list {
   display: flex;
@@ -209,8 +222,6 @@ body {
 /*===================/section 3==================*/
 /*====================section 4==================*/
 .member-header {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -235,6 +246,8 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -253,8 +266,15 @@ body {
   background-color: #2f303a;
 }
 
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
 .bottom-logo {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .bottom-logo-part {
@@ -299,7 +319,7 @@ body {
 
 /*=====================portfolio=================*/
 .portfolio-header {
-  padding-top: 94px;
+  padding-top: 70px;
   padding-bottom: 94px;
 }
 
@@ -307,7 +327,12 @@ body {
 .button-list {
   margin-bottom: 34px;
   display: flex;
+  justify-content: center;
   gap: 8px;
+}
+
+.examples {
+  text-align: center;
 }
 
 .filter-btn {
@@ -318,6 +343,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  border: 0;
 }
 
 .filter-btn:hover,
@@ -331,19 +357,28 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 
+.border-botton-projects {
+  border: 1px solid #eeeeee;
+}
 .projects-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .projects-specification {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-left: 24px;
+  padding-bottom: 20px;
   color: #757575;
 }
 /*=====================/projects=================*/
